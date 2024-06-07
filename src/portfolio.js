@@ -25,7 +25,7 @@ import jsIcon from "./assets/images/javascript.svg"; // Import the JS SVG icon
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 3000 // Set animation duration as per your animation
+  duration: 2500  // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -41,7 +41,7 @@ const greeting = {
     "I am a Data Scientist with 5 years of experience in the healthcare industry 🏥 with a proven track record in developing advanced deep learning and causal inference models, driving innovation and improving outcomes."
   ),
   resumeLink:
-    "./resume.pdf", // Assuming resume.pdf is in the public directory
+    "./public/resume.pdf", // Assuming resume.pdf is in the public directory
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
