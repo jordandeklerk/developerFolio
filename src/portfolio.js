@@ -18,7 +18,7 @@ import sqlIcon from "./assets/images/sql.svg"; // Import the SQL SVG icon
 import awsIcon from "./assets/images/aws.svg"; // Import the AWS SVG icon
 import dockerIcon from "./assets/images/docker.svg"; // Import the Docker SVG icon
 import jsIcon from "./assets/images/javascript.svg"; // Import the JS SVG icon
-import devAnimation from "./assets/lottie/dev.json"; // Import the dev.json animation
+// import devAnimation from "./assets/lottie/dev.json"; // Import the dev.json animation
 
 // Splash Screen
 
