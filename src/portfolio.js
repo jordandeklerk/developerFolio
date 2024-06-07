@@ -41,7 +41,7 @@ const greeting = {
     "I am a Data Scientist with 5 years of experience in the healthcare industry 🏥 with a proven track record in developing advanced deep learning and causal inference models, driving innovation and improving outcomes."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1b2J8mCwRaTkGgqCMdho7W14ttAldGmia/view?usp=share_link", // Set to empty to hide the button
+    "./resume.pdf", // Assuming resume.pdf is in the public directory
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -253,7 +253,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true, // Set false to hide this section, defaults to true,
+  display: true // Set false to hide this section, defaults to true,
 };
 
 // Your top 3 proficient stacks/tech experience
