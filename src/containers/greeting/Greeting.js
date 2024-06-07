@@ -1,14 +1,13 @@
 import React, {useContext} from "react";
 import {Fade} from "react-reveal";
-// import emoji from "react-easy-emoji"; // Unused import
+import emoji from "react-easy-emoji";
 import "./Greeting.scss";
-import landingPerson from "../../assets/lottie/landingPerson"; // Uncommented this line
+import landingPerson from "../../assets/lottie/landingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
-import devAnimation from "../../assets/lottie/dev.json"; // Added this line
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
@@ -26,9 +25,7 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                <div className="wave-animation">
-                  <DisplayLottie animationData={devAnimation} />
-                </div>
+                <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p
                 className={
