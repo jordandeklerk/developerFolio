@@ -8,6 +8,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import devAnimation from "../../assets/lottie/dev.json"; // Added this line
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
@@ -25,7 +26,9 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
+                <div className="wave-animation">
+                  <DisplayLottie animationData={devAnimation} />
+                </div>
               </h1>
               <p
                 className={

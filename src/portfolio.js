@@ -4,6 +4,21 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import pytorchIcon from "./assets/images/pytorch.svg"; // Import the PyTorch SVG icon
+import tensorflowIcon from "./assets/images/tensorflow.svg"; // Import the Tensorflow SVG icon
+import scikitIcon from "./assets/images/scikit.svg"; // Import the Scikit SVG icon
+import huggingIcon from "./assets/images/hugging.svg"; // Import the Hugging SVG icon
+import pythonIcon from "./assets/images/python.svg"; // Import the Python SVG icon
+import rstudioIcon from "./assets/images/rstudio.svg"; // Import the RStudio SVG icon
+import htmlIcon from "./assets/images/html5.svg"; // Import the HTML SVG icon
+import nodejsIcon from "./assets/images/nodejs.svg"; // Import the Node.js SVG icon
+import reactIcon from "./assets/images/reactjs.svg"; // Import the React SVG icon
+import npmIcon from "./assets/images/npm.svg"; // Import the NPM SVG icon
+import sqlIcon from "./assets/images/sql.svg"; // Import the SQL SVG icon
+import awsIcon from "./assets/images/aws.svg"; // Import the AWS SVG icon
+import dockerIcon from "./assets/images/docker.svg"; // Import the Docker SVG icon
+import jsIcon from "./assets/images/javascript.svg"; // Import the JS SVG icon
+import devAnimation from "./assets/lottie/dev.json"; // Import the dev.json animation
 
 // Splash Screen
 
@@ -20,26 +35,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Jordan Deklerk",
+  title: "Hi, I'm Jordan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I am a Data Scientist with 5 years of experience in the healthcare industry 🏥 with a proven track record in developing advanced deep learning and causal inference models, driving innovation and improving outcomes."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1b2J8mCwRaTkGgqCMdho7W14ttAldGmia/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/jordandeklerk",
+  linkedin: "https://www.linkedin.com/in/jordandeklerk/",
+  gmail: "jdeklerk10@gmail.com",
+  // gitlab: "https://gitlab.com/jordandeklerk",
+  // facebook: "https://www.facebook.com/jordandeklerk",
+  // medium: "https://medium.com/@jordandeklerk",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,15 +63,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Programming Skills",
+  subTitle: "DEEP LEARNING AND DATA SCIENCE PRACTIONER DRIVEN BY CURIOSITY",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop cutting-edge deep learning and machine learning models to solve complex problems"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Create scalable and efficient machine learning pipelines for seamless deployment"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Leverage powerful cloud-based services such as AWS SageMaker, Google Cloud AI Platform, and Azure ML for enhanced model performance and scalability"
     )
   ],
 
@@ -65,56 +80,76 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "python",
+      icon: pythonIcon // Use the imported SVG icon
+    },
+    {
+      skillName: "R",
+      icon: rstudioIcon // Use the imported SVG icon
+    },
+    {
+      skillName: "pytorch",
+      icon: pytorchIcon // Use the imported SVG icon
+    },
+    {
+      skillName: "tensorflow",
+      icon: tensorflowIcon // Use the imported SVG icon
+    },
+    {
+      skillName: "scikit-learn",
+      icon: scikitIcon // Use the imported SVG icon
+    },
+    {
+      skillName: "huggingface",
+      icon: huggingIcon // Use the imported SVG icon
+    },
+    {
       skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      icon: htmlIcon // Use the imported SVG icon
     },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+    // {
+    //   skillName: "css3",
+    //   fontAwesomeClassname: "fab fa-css3-alt"
+    // },
+    // {
+    //   skillName: "sass",
+    //   fontAwesomeClassname: "fab fa-sass"
+    // },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      icon: jsIcon // Use the imported SVG icon
     },
     {
       skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      icon: reactIcon // Use the imported SVG icon
     },
     {
       skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      icon: nodejsIcon // Use the imported SVG icon
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
     {
       skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      icon: npmIcon // Use the imported SVG icon
     },
     {
       skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      icon: sqlIcon // Use the imported SVG icon
     },
     {
       skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      icon: awsIcon // Use the imported SVG icon
     },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
+    // {
+    //   skillName: "firebase",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // },
     {
       skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      icon: dockerIcon // Use the imported SVG icon
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,46 +161,45 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "University of Illinois Urbana-Champaign",
+      logo: require("./assets/images/uiuc2.png"),
+      subHeader: "Master of Science in Statistics",
+      duration: "August 2022 - May 2024",
+      // desc: "Relevant Coursework",
+      // descBullets: [
+      //   "Deep Learning",
+      //   "Computer Vision",
+      //   "Natural Language Processing",
+      //   "Bayesian Machine Learning"
+      // ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "University of Wisconsin-Madison",
+      logo: require("./assets/images/wisconsin3.png"),
+      subHeader: "Master of Science in Economics",
+      duration: "August 2016 - May 2018",
+      // desc: "Relevant Coursework",
+      // descBullets: [
+      //   "Applied Econometrics",
+      //   "Time Series Forecasting",
+      //   "Causal Inference",
+      //   "Bayesian Statistics"
+      // ]
+    },
+    {
+      schoolName: "University of Central Florida",
+      logo: require("./assets/images/ucf2.png"),
+      subHeader: "Bachelor of Arts in Economics and Mathematics",
+      duration: "August 2013 - May 2016",
+      // desc: "Relevant Coursework",
+      // descBullets: [
+      //   "Mathematical Economics",
+      //   "Probability and Random Processes",
+      //   "Econometrics",
+      //   "Mathematical Finance"
+      // ]
     }
   ]
-};
-
-// Your top 3 proficient stacks/tech experience
-
-const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
-  ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -174,30 +208,43 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Data Scientist",
+      company: "UPMC Health Plan",
+      companylogo: require("./assets/images/upmc.png"),
+      date: "June 2020 – Jan 2023",
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed a BERT-style transformer model on EHR claims data, reducing 30-day re-admissions by 14% and saving $1.3M.",
+        "Created a CNN and autoencoder unsupervised model to cluster patients by disease sub-types, saving $345k in savings.",
+        "Transitioned existing models to production using AWS Sagemaker, enhancing real-time prediction capabilities."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Data Scientist",
+      company: "Health First Health Plans",
+      companylogo: require("./assets/images/hf.png"),
+      date: "Dec 2019 – June 2020",
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "Constructed an ensemble gradient boosted tree model to retain 31% of at-risk members, saving $230k annually.",
+        "Designed an instrumental variables causal model to estimate price elasticity of Medicare Part D cancer drugs.",
+        "Utilized Apache Spark to preprocess EHR data, enhancing machine learning model training and insights."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Associate Data Scientist",
+      company: "Health First Health Plans",
+      companylogo: require("./assets/images/hf.png"),
+      date: "July 2018 – Dec 2019",
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "Formulated a Bayesian Gaussian process model for forecasting healthcare utilization, saving $115k quarterly.",
+        "Produced and presented quarterly chronic disease analytics reports with financial recommendations to executives.",
+        "Established and maintained SAS financial reporting processes for strategic accounts and Medicare lines of business."
+      ]
     }
+
+    
   ]
 };
 
@@ -209,6 +256,34 @@ const openSource = {
   display: true // Set false to hide this section, defaults to true
 };
 
+// Your top 3 proficient stacks/tech experience
+
+const techStack = {
+  viewSkillBars: false, //Set it to true to show Proficiency Section
+  experience: [
+    {
+      Stack: "Deep Learning", //Insert stack or technology you have experience in
+      progressPercentage: "95%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Time Series Forecasting",
+      progressPercentage: "95%"
+    },
+    {
+      Stack: "Causal Inference",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Bayesian Inference",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Frontend",
+      progressPercentage: "60%"
+    }
+  ],
+  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+};
 // Some big projects you have worked on
 
 const bigProjects = {
@@ -239,7 +314,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -300,28 +375,28 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Blog",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "Coming Soon!",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "",
+      title: "Forecasting with Bayesian Gaussian Processes",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "A guide on how to forecast with Bayesian Gaussian processes on competition time series datasets"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "",
+      title: "Understanding Diffusion Processes",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "An introduction to diffusion processes and how to simulate them in python"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -343,7 +418,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +431,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -371,19 +446,19 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Want to discuss a project or just say hi? My inbox is open to everyone.",
+  number: "321-624-1004",
+  email_address: "jdeklerk10@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
