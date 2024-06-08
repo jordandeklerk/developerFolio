@@ -40,7 +40,7 @@ const greeting = {
   subTitle: emoji(
     "I am a Data Scientist with 5 years of experience in the healthcare industry 🏥 with a proven track record in developing advanced deep learning and causal inference models, driving innovation and improving outcomes."
   ),
-  resumeLink: "/resume.pdf", // Assuming resume.pdf is in the public directory
+  resumeLink: "https://drive.google.com/file/d/1b2J8mCwRaTkGgqCMdho7W14ttAldGmia/view?usp=share_link", // Assuming resume.pdf is in the public directory
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
