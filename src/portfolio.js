@@ -25,7 +25,7 @@ import jsIcon from "./assets/images/javascript.svg"; // Import the JS SVG icon
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 3500  // Set animation duration as per your animation
+  duration: 4190  // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -53,7 +53,7 @@ const socialMediaLinks = {
   gmail: "jdeklerk10@gmail.com",
   kaggle: "https://www.kaggle.com/deepproblem", 
   // huggingface: "https://huggingface.co/jdeklerk10", // Replace with your Hugging Face profile URL
-  // facebook: "https://www.facebook.com/jordandeklerk",
+  facebook: "https://www.facebook.com",
   display: true // Set true to display this section, defaults to false
 };
 
