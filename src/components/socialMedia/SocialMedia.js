@@ -20,6 +20,18 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+      {socialMediaLinks.blog ? (
+        <a
+          href={socialMediaLinks.blog}
+          className="icon-button blog"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-blog"></i>
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.linkedin ? (
         <a
           href={socialMediaLinks.linkedin}
@@ -92,18 +104,6 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.medium ? (
-        <a
-          href={socialMediaLinks.medium}
-          className="icon-button medium"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-medium"></i>
-          <span></span>
-        </a>
-      ) : null}
-
       {socialMediaLinks.stackoverflow ? (
         <a
           href={socialMediaLinks.stackoverflow}
@@ -127,6 +127,17 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+      {socialMediaLinks.huggingface ? (
+       <a
+         href={socialMediaLinks.huggingface}
+         className="icon-button huggingface"
+         target="_blank"
+         rel="noopener noreferrer"
+       >
+         <i className="fa-regular fa-face-smiling-hands"></i> {/* Use a suitable icon class */}
+         <span></span>
+       </a>
+     ) : null}
     </div>
   );
 }

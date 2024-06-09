@@ -31,6 +31,7 @@
 }
 .blog-main-div {
   display: flex;
+  flex-direction: column; /* Add this line */
 }
 .blog-image-div > img {
   max-width: 100%;
@@ -67,4 +68,8 @@
   .blog-text-div {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
+}
+
+.project-button {
+  margin-top: 20px; /* Add this line */
 }

@@ -48,14 +48,13 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/jordandeklerk",
+  blog: "https://yourpersonalblog.com",
   linkedin: "https://www.linkedin.com/in/jordandeklerk/",
   gmail: "jdeklerk10@gmail.com",
+  kaggle: "https://www.kaggle.com/deepproblem", 
+  // huggingface: "https://huggingface.co/jdeklerk10", // Replace with your Hugging Face profile URL
   // gitlab: "https://gitlab.com/jordandeklerk",
   // facebook: "https://www.facebook.com/jordandeklerk",
-  // medium: "https://medium.com/@jordandeklerk",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
 

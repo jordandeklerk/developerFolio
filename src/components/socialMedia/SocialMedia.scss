@@ -68,6 +68,14 @@
   background-color: $instagram;
 }
 
+.blog i {
+  background-color: rgb(136, 0, 255); // Set the icon background color to yellow
+}
+
+.huggingface i {
+  background-color: #ffcc00; // Set the icon background color to a suitable color for Hugging Face
+}
+
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
@@ -78,7 +86,8 @@
 .instagram i:hover,
 .stack-overflow i:hover,
 .kaggle i:hover,
-.medium i:hover {
+.medium i:hover,
+.blog i:hover {
   background-color: $textColor;
 }
 
@@ -88,3 +97,4 @@
     text-align: center;
   }
 }
+

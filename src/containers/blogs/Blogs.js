@@ -4,6 +4,8 @@ import BlogCard from "../../components/blogCard/BlogCard";
 import {blogSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import Button from "../../components/button/Button"; // Add this import
+
 export default function Blogs() {
   const {isDark} = useContext(StyleContext);
   const [mediumBlogs, setMediumBlogs] = useState([]);
@@ -91,6 +93,12 @@ export default function Blogs() {
                   );
                 })}
           </div>
+          <Button
+            text={"More Tutorials"}
+            className="project-button"
+            href="https://yourpersonalblog.com"
+            newTab={true}
+          />
         </div>
       </div>
     </Fade>
