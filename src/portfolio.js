@@ -393,16 +393,22 @@ const blogSection = {
     },
     {
       url: "",
+      title: "Fine-Tuning OpenCodeInterpreter-6.7B for SQL Code Generation",
+      description:
+        "Fine-tuning a code-generating LLM for text-to-SQL tasks using the QLoRA+ method"
+    },
+    {
+      url: "",
       title: "Forecasting with Bayesian Gaussian Processes",
       description:
         "A guide on how to forecast with Bayesian Gaussian processes on competition time series datasets"
     },
-    {
-      url: "",
-      title: "Understanding Diffusion Processes",
-      description:
-        "A deep introduction to diffusion processes and how to simulate them"
-    }
+    // {
+    //   url: "",
+    //   title: "Understanding Diffusion Processes",
+    //   description:
+    //     "A deep introduction to diffusion processes and how to simulate them"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
