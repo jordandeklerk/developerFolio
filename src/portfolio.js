@@ -213,9 +213,9 @@ const workExperiences = {
       date: "June 2020 – Jan 2023",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Developed a BERT-style transformer model on EHR claims data, reducing 30-day re-admissions by 14% and saving $1.3M.",
-        "Created a CNN and autoencoder unsupervised model to cluster patients by disease sub-types, saving $345k in savings.",
-        "Transitioned existing models to production using AWS Sagemaker, enhancing real-time prediction capabilities."
+        "Developed a BERT-style transformer model on EHR claims data, reducing 30-day re-admissions by 14% and saving $1.3M",
+        "Created a CNN and autoencoder unsupervised model to cluster patients by disease sub-types, saving $345k",
+        "Transitioned existing models to production using AWS Sagemaker, enhancing real-time prediction capabilities"
       ]
     },
     {
@@ -225,9 +225,9 @@ const workExperiences = {
       date: "Dec 2019 – June 2020",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       descBullets: [
-        "Constructed an ensemble gradient boosted tree model to retain 31% of at-risk members, saving $230k annually.",
-        "Designed an instrumental variables causal model to estimate price elasticity of Medicare Part D cancer drugs.",
-        "Utilized Apache Spark to preprocess EHR data, enhancing machine learning model training and insights."
+        "Constructed an ensemble gradient boosted tree model to retain 31% of at-risk members, saving $230k annually",
+        "Designed an instrumental variables causal model to estimate price elasticity of Medicare Part D cancer drugs",
+        "Utilized Apache Spark to preprocess EHR data, enhancing machine learning model training and insights"
       ]
     },
     {
@@ -237,9 +237,9 @@ const workExperiences = {
       date: "July 2018 – Dec 2019",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       descBullets: [
-        "Formulated a Bayesian Gaussian process model for forecasting healthcare utilization, saving $115k quarterly.",
-        "Produced and presented quarterly chronic disease analytics reports with financial recommendations to executives.",
-        "Established and maintained SAS financial reporting processes for strategic accounts and Medicare lines of business."
+        "Formulated a Bayesian Gaussian process model for forecasting healthcare utilization, saving $115k quarterly",
+        "Produced and presented quarterly chronic disease analytics reports with financial recommendations to executives",
+        "Established and maintained SAS financial reporting processes for strategic accounts and Medicare lines of business"
       ]
     }
 
@@ -380,11 +380,17 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blog",
+  title: "Tutorials",
   subtitle:
     "Coming Soon!",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
+    {
+      url: "",
+      title: "Closing the Amortization Gap in Bayesian Deep Generative Models",
+      description:
+        "Integrating A-VI with Bayesian VAEs: theory, implementation, and numerical experiments"
+    },
     {
       url: "",
       title: "Forecasting with Bayesian Gaussian Processes",
@@ -395,7 +401,7 @@ const blogSection = {
       url: "",
       title: "Understanding Diffusion Processes",
       description:
-        "An introduction to diffusion processes and how to simulate them in python"
+        "A deep introduction to diffusion processes and how to simulate them"
     }
   ],
   display: true // Set false to hide this section, defaults to true
