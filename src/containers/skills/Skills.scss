@@ -15,6 +15,13 @@
   margin-bottom: 30px;
 }
 
+.skills-image-div {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically if needed */
+  margin: 0 auto; /* Optional: Center the container itself */
+}
+
 .skills-image-div > img {
   max-width: 100%;
   height: auto;

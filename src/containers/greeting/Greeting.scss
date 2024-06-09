@@ -51,7 +51,8 @@
 .greeting-image-div {
   display: flex;
   justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  align-items: center; /* Center vertically if needed */
+  margin: 0 auto; /* Optional: Center the container itself */
   // margin-top: -90px; /* Adjust the top margin as needed */
 }
 
@@ -132,4 +133,6 @@
     width: auto;
   }
 }
+
+
 
