@@ -25,7 +25,7 @@ import jsIcon from "./assets/images/javascript.svg"; // Import the JS SVG icon
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2500  // Set animation duration as per your animation
+  duration: 3500  // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -53,7 +53,6 @@ const socialMediaLinks = {
   gmail: "jdeklerk10@gmail.com",
   kaggle: "https://www.kaggle.com/deepproblem", 
   // huggingface: "https://huggingface.co/jdeklerk10", // Replace with your Hugging Face profile URL
-  // gitlab: "https://gitlab.com/jordandeklerk",
   // facebook: "https://www.facebook.com/jordandeklerk",
   display: true // Set true to display this section, defaults to false
 };
@@ -105,14 +104,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "html-5",
       icon: htmlIcon // Use the imported SVG icon
     },
-    // {
-    //   skillName: "css3",
-    //   fontAwesomeClassname: "fab fa-css3-alt"
-    // },
-    // {
-    //   skillName: "sass",
-    //   fontAwesomeClassname: "fab fa-sass"
-    // },
     {
       skillName: "JavaScript",
       icon: jsIcon // Use the imported SVG icon
@@ -125,10 +116,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       icon: nodejsIcon // Use the imported SVG icon
     },
-    // {
-    //   skillName: "swift",
-    //   fontAwesomeClassname: "fab fa-swift"
-    // },
     {
       skillName: "npm",
       icon: npmIcon // Use the imported SVG icon
@@ -141,10 +128,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "aws",
       icon: awsIcon // Use the imported SVG icon
     },
-    // {
-    //   skillName: "firebase",
-    //   fontAwesomeClassname: "fas fa-fire"
-    // },
     {
       skillName: "docker",
       icon: dockerIcon // Use the imported SVG icon
@@ -401,13 +384,7 @@ const blogSection = {
       title: "Forecasting with Bayesian Gaussian Processes",
       description:
         "A guide on how to forecast with Bayesian Gaussian processes on competition time series datasets"
-    },
-    // {
-    //   url: "",
-    //   title: "Understanding Diffusion Processes",
-    //   description:
-    //     "A deep introduction to diffusion processes and how to simulate them"
-    // }
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };

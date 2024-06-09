@@ -48,9 +48,11 @@
   line-height: 40px;
 }
 
-.greeting-image-div > img {
-  max-width: 100%;
-  height: auto;
+.greeting-image-div {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-top: -50px; /* Adjust the top margin as needed */
 }
 
 .wave-emoji {
