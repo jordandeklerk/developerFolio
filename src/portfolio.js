@@ -48,7 +48,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/jordandeklerk",
-  blog: "https://yourpersonalblog.com",
+  blog: "https://zingy-taffy-d2a183.netlify.app",
   linkedin: "https://www.linkedin.com/in/jordandeklerk/",
   gmail: "jdeklerk10@gmail.com",
   kaggle: "https://www.kaggle.com/deepproblem", 
@@ -364,27 +364,27 @@ const achievementSection = {
 const blogSection = {
   title: "Tutorials",
   subtitle:
-    "Coming Soon!",
+    "",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "",
+      url: "https://zingy-taffy-d2a183.netlify.app/amortized-bayes/",
       title: "Closing the Amortization Gap in Bayesian Deep Generative Models",
       description:
         "Integrating A-VI with Bayesian VAEs: theory, implementation, and numerical experiments"
     },
     {
-      url: "",
+      url: "https://zingy-taffy-d2a183.netlify.app/open-code/",
       title: "Fine-Tuning OpenCodeInterpreter-6.7B for SQL Code Generation",
       description:
         "Fine-tuning a code-generating LLM for text-to-SQL tasks using the QLoRA+ method"
     },
-    {
-      url: "",
-      title: "Forecasting with Bayesian Gaussian Processes",
-      description:
-        "A guide on how to forecast with Bayesian Gaussian processes on competition time series datasets"
-    }
+    // {
+    //   url: "",
+    //   title: "Forecasting with Bayesian Gaussian Processes",
+    //   description:
+    //     "A guide on how to forecast with Bayesian Gaussian processes on competition time series datasets"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
