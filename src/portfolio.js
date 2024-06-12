@@ -368,13 +368,13 @@ const blogSection = {
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://zingy-taffy-d2a183.netlify.app/amortized-bayes/",
+      url: "https://ml-tutorials.netlify.app/blog/amortized-bayes/",
       title: "Closing the Amortization Gap in Bayesian Deep Generative Models",
       description:
         "Integrating A-VI with Bayesian VAEs: theory, implementation, and numerical experiments"
     },
     {
-      url: "https://zingy-taffy-d2a183.netlify.app/open-code/",
+      url: "https://ml-tutorials.netlify.app/blog/open-code/",
       title: "Fine-Tuning OpenCodeInterpreter-6.7B for SQL Code Generation",
       description:
         "Fine-tuning a code-generating LLM for text-to-SQL tasks using the QLoRA+ method"
