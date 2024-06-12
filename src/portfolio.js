@@ -48,7 +48,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/jordandeklerk",
-  blog: "https://zingy-taffy-d2a183.netlify.app",
+  blog: "https://ml-tutorials.netlify.app",
   linkedin: "https://www.linkedin.com/in/jordandeklerk/",
   gmail: "jdeklerk10@gmail.com",
   kaggle: "https://www.kaggle.com/deepproblem", 
