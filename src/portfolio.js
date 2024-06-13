@@ -381,7 +381,7 @@ const blogSection = {
     },
     {
       url: "https://ml-tutorials.netlify.app/blog/open-code/",
-      title: "Fine-Tuning OpenCodeInterpreter-6.7B for SQL Code Generation",
+      title: "Fine-Tuning a Coding LLM for SQL Code Generation",
       description:
         "Fine-tuning a coding LLM using HuggingFace 🤗 for text-to-SQL tasks with the QLoRA+ method"
     }
