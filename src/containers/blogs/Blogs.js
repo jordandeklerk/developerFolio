@@ -96,7 +96,7 @@ export default function Blogs() {
           <Button
             text={"More Tutorials"}
             className="project-button"
-            href="https://zingy-taffy-d2a183.netlify.app"
+            href="https://ml-tutorials.netlify.app"
             newTab={true}
           />
         </div>
