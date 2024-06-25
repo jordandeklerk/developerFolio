@@ -25,7 +25,7 @@ import jsIcon from "./assets/images/javascript.svg"; // Import the JS SVG icon
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 4700  // Set animation duration as per your animation
+  duration: 4750  // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
