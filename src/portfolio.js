@@ -368,6 +368,12 @@ const blogSection = {
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
+      url: "https://ml-tutorials.netlify.app/blog/rl-intro/",
+      title: "An Introduction to Reinforcement Learning",
+      description:
+        "A theoretical introduction to the fundamentals of Reinforcement Learning"
+    },
+    {
       url: "https://ml-tutorials.netlify.app/blog/ehr-bert/",
       title: "Masked Token Learning for Inpatient Diagnosis and Procedure Prediction",
       description:
