@@ -38,9 +38,9 @@ const greeting = {
   username: "Jordan Deklerk",
   title: "Hi, I'm Jordan",
   subTitle: emoji(
-    "I am a Data Scientist with 5 years of experience in the healthcare industry 🏥 with a proven track record in developing advanced deep learning and causal inference models, driving innovation and improving outcomes."
+    "I am a Data Scientist with five years of experience in the healthcare industry 🏥, now bringing my expertise to the media analytics team 📺 at DICK's Sporting Goods as a Senior Data Scientist."
   ),
-  resumeLink: "https://drive.google.com/file/d/1b2J8mCwRaTkGgqCMdho7W14ttAldGmia/view?usp=share_link", // Assuming resume.pdf is in the public directory
+  resumeLink: "https://drive.google.com/file/d/1XWA-gPYVIcG2WAGSnnOOYPh4adtPKLra/view?usp=share_link", // Assuming resume.pdf is in the public directory
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -189,6 +189,16 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Senior Data Scientist",
+      company: "DICK's Sporting Goods",
+      companylogo: require("./assets/images/dicks.png"),
+      date: "June 2024 – Present",
+      desc: "Coming Soon!",
+      descBullets: [
+        // "Developing and deploying machine learning models to improve the efficiency and effectiveness of DICK's Sporting Goods media strategy."
+      ]
+    },
+    {
       role: "Data Scientist",
       company: "UPMC Health Plan",
       companylogo: require("./assets/images/upmc.png"),
@@ -212,18 +222,18 @@ const workExperiences = {
         "Utilized Apache Spark to preprocess EHR data, enhancing machine learning model training and insights"
       ]
     },
-    {
-      role: "Associate Data Scientist",
-      company: "Health First Health Plans",
-      companylogo: require("./assets/images/hf.png"),
-      date: "July 2018 – Dec 2019",
-      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      descBullets: [
-        "Formulated a Bayesian Gaussian process model for forecasting healthcare utilization, saving $115k quarterly",
-        "Produced and presented quarterly chronic disease analytics reports with financial recommendations to executives",
-        "Established and maintained SAS financial reporting processes for strategic accounts and Medicare lines of business"
-      ]
-    }
+    // {
+    //   role: "Associate Data Scientist",
+    //   company: "Health First Health Plans",
+    //   companylogo: require("./assets/images/hf.png"),
+    //   date: "July 2018 – Dec 2019",
+    //   // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    //   descBullets: [
+    //     "Formulated a Bayesian Gaussian process model for forecasting healthcare utilization, saving $115k quarterly",
+    //     "Produced and presented quarterly chronic disease analytics reports with financial recommendations to executives",
+    //     "Established and maintained SAS financial reporting processes for strategic accounts and Medicare lines of business"
+    //   ]
+    // }
 
     
   ]
