@@ -192,7 +192,7 @@ const workExperiences = {
       role: "Senior Data Scientist",
       company: "DICK's Sporting Goods",
       companylogo: require("./assets/images/dicks.png"),
-      date: "June 2024 – Present",
+      date: "August 2024 – Present",
       desc: "Coming Soon!",
       descBullets: [
         // "Developing and deploying machine learning models to improve the efficiency and effectiveness of DICK's Sporting Goods media strategy."
@@ -202,7 +202,7 @@ const workExperiences = {
       role: "Data Scientist",
       company: "UPMC Health Plan",
       companylogo: require("./assets/images/upmc.png"),
-      date: "June 2020 – Jan 2023",
+      date: "June 2020 – Sep 2023",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Developed a BERT-style transformer model on EHR claims data, reducing 30-day re-admissions by 14% and saving $1.3M",
