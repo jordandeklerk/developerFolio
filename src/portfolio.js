@@ -202,7 +202,7 @@ const workExperiences = {
       role: "Data Scientist",
       company: "UPMC Health Plan",
       companylogo: require("./assets/images/upmc.png"),
-      date: "Jun 2020 – Sep 2023",
+      date: "Jun 2020 – Sep 2022",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Developed a BERT-style transformer model on EHR claims data, reducing 30-day re-admissions by 14% and saving $1.3M",
