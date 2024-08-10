@@ -207,7 +207,7 @@ const workExperiences = {
       descBullets: [
         "Developed a BERT-style transformer model on EHR claims data, reducing 30-day re-admissions by 14% and saving $1.3M",
         "Created a CNN and autoencoder unsupervised model to cluster patients by disease sub-types, saving $345k",
-        "Transitioned existing models to production using AWS Sagemaker, enhancing real-time prediction capabilities"
+        "Leveraged AWS deep learning docker containers and Kubeflow to transition existing machine learning models into production"
       ]
     },
     {
@@ -219,7 +219,7 @@ const workExperiences = {
       descBullets: [
         "Constructed an ensemble gradient boosted tree model to retain 31% of at-risk members, saving $230k annually",
         "Designed an instrumental variables causal model to estimate price elasticity of Medicare Part D cancer drugs",
-        "Utilized Apache Spark to preprocess EHR data, enhancing machine learning model training and insights"
+        "Built a Bayesian Gaussian process model for forecasting healthcare utilization, saving $115k quarterly"
       ]
     },
     // {
