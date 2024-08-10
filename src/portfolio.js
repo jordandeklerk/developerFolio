@@ -38,7 +38,7 @@ const greeting = {
   username: "Jordan Deklerk",
   title: "Hi, I'm Jordan",
   subTitle: emoji(
-    "I am a Data Scientist with five years of experience in the healthcare industry 🏥, now bringing my expertise to the media analytics team 📺 at DICK's Sporting Goods as a Senior Data Scientist."
+    "Senior Data Scientist at DICK's Sporting Goods on the media team 📺 working on Bayesian causal inference and machine learning model development. Previously in the healthcare industry where I've built and deployed transformer models, latent variable models, causal inference models, and time series forecasting solutions to drive impactful outcomes."
   ),
   resumeLink: "https://drive.google.com/file/d/1XWA-gPYVIcG2WAGSnnOOYPh4adtPKLra/view?usp=share_link", // Assuming resume.pdf is in the public directory
   displayGreeting: true // Set false to hide this section, defaults to true
