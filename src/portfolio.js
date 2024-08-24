@@ -40,7 +40,7 @@ const greeting = {
   subTitle: emoji(
     "Senior Data Scientist at DICK's Sporting Goods on the media team 📺 working on Bayesian causal inference and building machine learning models"
   ),
-  resumeLink: "https://drive.google.com/file/d/1GOgXnknt7Z8xqMGDZMY6vPUiXgA3Uy9O/view?usp=share_link", // Assuming resume.pdf is in the public directory
+  resumeLink: "https://drive.google.com/file/d/1R7JUDjQbMZQ9ykwFF6QANORwPxpwBQug/view?usp=share_link", // Assuming resume.pdf is in the public directory
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -50,7 +50,7 @@ const socialMediaLinks = {
   github: "https://github.com/jordandeklerk",
   blog: "https://ml-tutorials.netlify.app",
   linkedin: "https://www.linkedin.com/in/jordandeklerk/",
-  gmail: "jdeklerk10@gmail.com",
+  gmail: "jordan.deklerk@gmail.com",
   kaggle: "https://www.kaggle.com/deepproblem", 
   // huggingface: "https://huggingface.co/jdeklerk10", // Replace with your Hugging Face profile URL
   facebook: "https://www.facebook.com",
